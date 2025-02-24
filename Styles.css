@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #735da5;
+    color: #d3c5e5;
+}
+
+header {
+    
+    background-color: #735da5;
+    padding: 5px 20px;
+    text-align: center;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.aboutus{
+    display:flex;
+    gap: 5px 25px;
+   
+}
+.navbar .logo {
+    font-size: 1.8rem;
+    height:150px;
+    width:150px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    width: 10px;
+    height: 2px;
+}
+
+/* Main Section */
+main {
+    padding: 40px;
+    background-color: #d3c5e5;
+    color:black;
+}
+
+h1, h2 {
+    color: #735da5;
+}
+h4{
+    color:white;
+}
+     
+.intro p {
+    font-size: 1.2rem;
+}
+
+.branches-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.branch {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.branch h3 {
+    color: #735da5;
+}
+
+.resources-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resource {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resource h3 {
+    color: #735da5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1px 0;
+    background-color: #735da5;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode header {
+    background-color: #d3c5e5;
+}
+
+body.dark-mode .navbar {
+    background-color: #d3c5e5;
+}
+
+body.dark-mode .nav-links a {
+    color: #fff;
+}
+
+body.dark-mode button {
+    color: #fff;
+}
+
+body.dark-mode footer {
+    background-color: #d3c5e5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .branches-list, .resources-list {
+        flex-direction: column;
+    }
+
+    .branch, .resource {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

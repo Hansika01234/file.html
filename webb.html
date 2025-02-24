@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Hub for BTech & Diploma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header position="fixed">
+        <div class="navbar">
+         <img align="left" class="logo" src="C:\Users\hansi\OneDrive\Pictures\Camera Roll\WhatsApp Image 2025-02-22 at 21.49.27_162f1422.jpg" alt="logo">
+         <a href="C:\Users\hansi\OneDrive\Pictures\Camera Roll\WhatsApp Image 2025-02-22 at 21.49.27_162f1422.jpg#image" width=10 height=10 >Learning Hub</a>
+
+          <select name="Cources"  onfocus="this.size=0;" onblur="this.size=0;" onchange="this.size=20; this.blur();">
+           
+              <optgroup label="Categories">
+                <option value="^"><h4>~>courses</h4></option></optgroup>
+                <optgroup label=">>Engineering">
+                <option value="engg">>Computer science</option>
+                <option value="diploma">>Mechanical Engineering</option>
+                <option value="diploma">>Civil Engineering</option>
+                <option value="diploma">>Electronical Engineering</option>
+                <option value="diploma">>Chemical Engineering</option>
+                <option value="diploma">>Automobile Engineering</option>
+                <option value="diploma">>Aeronautical Engineering</option>
+                <option value="diploma">>Electronics and Communication Engineering</option>
+                <option value="diploma">>AI&ML</option>
+              </optgroup>
+           <optgroup label=">>Diploma">
+              <option value="Engineering">>Cse</option>
+              <option value="Diploma">>Ai&ml</option>
+              <option value="Quizz">>Eee</option>
+              <option value="placements">>Ece</option>
+              <option value="placements" >>Civil</option>
+           </optgroup>
+          </select>
+        </div>
+            <div class="nav-links">
+              <div class="head">
+                <a href="#branches">Engineering Branches</a>
+                <a href="#resources">Resources</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+</div>
+            </div>
+            <button id="darkModeToggle" onclick="toggleDarkMode()">📚</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="intro">
+                <h1>Welcome to the Education Portal for BTech & Diploma Students</h1>
+                <p>Your one-stop destination for learning resources, study materials, and updates for engineering courses.</p>
+            </div>
+        </section>
+<div class="nav-links">
+        <section id="branches">
+            <h2>Engineering Branches</h2>
+            <div class="branches-list">
+                <div class="branch">
+                    <h3>Computer Science</h3>
+                    <p>Learn programming, algorithms, and data structures to excel in the field of technology.</p>
+                </div>
+                <div class="branch">
+                    <h3>Mechanical Engineering</h3>
+                    <p>Explore topics like thermodynamics, fluid mechanics, and robotics to become a future engineer.</p>
+                </div>
+                <div class="branch">
+                    <h3>Civil Engineering</h3>
+                    <p>Study construction, structural design, and environmental engineering to build the world of tomorrow.</p>
+                </div>
+                <div class="branch">
+                    <h3>Electrical Engineering</h3>
+                    <p>Learn about circuits, power systems, and electronics to create efficient electrical systems.</p>
+                </div>
+                <div class="branch">
+                    <h3>AI&ML</h3>
+                    <p>Study of artifical intelligence and mechanical learningused to  design and develop intelligent systems that can learn and adapt to new data.</p>
+               </div>
+                <div class="branch">
+                    <h3>Chemical Engineering</h3>
+                    <p>Dive into the study of chemical reactions, process design, and materials science.</p>
+                </div>
+               <div class="branch">
+                    <h3>Automobile Engineering</h3>
+                    <p>Explore the design, development, and manufacturing of vehicles, including cars, trucks, and motorcycles. Understand the mechanics of engines, transmission systems, and safety features.</p>
+                </div>
+                 <div class="branch">
+                    <h3>Aeronautical Engineering</h3>
+                    <p>Study the design, development, and maintenance of aircraft, spacecraft, and missiles. Learn about aerodynamics, propulsion systems, and materials science.</p>
+
+                 </div>
+                  <div class="branch">
+                    <h3>Electronics and Communication Engineering</h3>
+                    <p>Study Electronics and Communication Engineering: Study the design, development, and application of electronic systems, including communication systems, control systems, and embedded systems.</p>
+                  </div>
+            
+            </div>
+        </section>
+<div class="navbar">
+        <section id="resources">
+            <h2>Resources</h2>
+            <div class="resources-list">
+                <div class="resource">
+                    <h3>Study Materials</h3>
+                    <p>Access textbooks, notes, and video lectures for various subjects and topics.</p>
+                </div>
+                <div class="resource">
+                    <h3>Assignments & Practice</h3>
+                    <p>Find assignments, practice problems, and mock tests to strengthen your understanding.</p>
+                </div>
+                <div class="resource">
+                    <h3>Online Courses</h3>
+                    <p>Enroll in online courses to enhance your knowledge in specialized fields.</p>
+                </div>
+            </div>
+        </section>
+
+            </main>
+<section id="about">
+            <h4 align="center">About Us</h4>
+            <p align="center">We are a dedicated platform designed to provide all the necessary resources for BTech and Diploma students across various engineering branches. Our goal is to empower students with knowledge and provide them with tools for success.</p>
+        </section>
+
+        <section id="contact">
+            <h4 align="center">Contact us</h4>
+            <p align="center">Email us at: support@learninghub.com</p>
+        </section>
+<section id="contact" align="center">
+      <form onsubmit="submitForm(event)">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
+      <div class="aboutus">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" required>
+       
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" required></textarea>
+        <button type="submit" align="left">Submit</button>
+      </form>
+    </section>
+</div>
+    <footer>
+        <p>&copy; 2025 learninghub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
